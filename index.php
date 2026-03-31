@@ -63,8 +63,7 @@
 
             <div class="contact-box">
                 <p>
-                    <a class="email-link" href="mailto:v.j.b.elgersma@students.uu.nl
-">
+                    <a class="email-link" href="mailto:v.j.b.elgersma@students.uu.nl">
                         v.j.b.elgersma@students.uu.nl
                     </a>
                 </p>
