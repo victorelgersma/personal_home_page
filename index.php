@@ -53,6 +53,11 @@
                 </p>
             </div>
         </section>
+        <section>
+            <h2>Miscellaneous</h2>
+            <p><a href="https://fr.wikipedia.org/wiki/Arganier#/media/Fichier:Huile_d'argan_003.JPG">Goats in an argan tree</a></p>
+
+        </section>
 
         <footer>
             <hr>
