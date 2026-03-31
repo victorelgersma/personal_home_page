@@ -72,40 +72,53 @@
         </section>
         <section>
             <h2>Miscellaneous</h2>
-            <p><a href="https://fr.wikipedia.org/wiki/Arganier#/media/Fichier:Huile_d'argan_003.JPG">Goats in an argan
-                    tree</a></p>
+            <ul>
+                <li>
+                    <p><a href="https://fr.wikipedia.org/wiki/Arganier#/media/Fichier:Huile_d'argan_003.JPG">Goats in an
+                            argan
+                            tree</a></p>
+                </li>
+                <li>
+                    <a href="https://ishtarthemovie.com/downloads/RogersAndClarke-DangerousBusiness.mp3">Ishtar!</a>
+                </li>
+            </ul>
+
 
         </section>
 
-</article>
-        <footer>
-            <hr>
-            <p style="font-style: italic;">Updated March 2026</p>
-            <p style="font-style: italic;">View <a href="https://github.com/victorelgersma/personal_home_page">Source
-                    Code 🧑‍💻</a></p>
+    </article>
+    <footer>
+        <hr>
+        <p style="font-style: italic;">Updated March 2026</p>
+        <p style="font-style: italic;">View <a href="https://github.com/victorelgersma/personal_home_page">Source
+                Code 🧑‍💻</a></p>
 
-            <?php
-            $quotes = [
-                [
-                    "text" => "The book of nature is written in the language of mathematics.",
-                    "author" => "Roger Bacon"
-                ],
-                [
-                    "text" => "Plato is my friend. Aristotle is my friend. But my biggest friend is the truth",
-                    "author" => "Isaac Newton"
-                ],
-            ];
+        <?php
+        $quotes = [
+            [
+                "text" => "The book of nature is written in the language of mathematics.",
+                "author" => "Roger Bacon"
+            ],
+            [
+                "text" => "Plato is my friend. Aristotle is my friend. But my biggest friend is the truth",
+                "author" => "Isaac Newton"
+            ],
+            [
+                "text" => "Hey, it takes a lot of nerve to have nothing at your age. Don't you understand that? Yeah, most guys would be ashamed, but you've got the guts to just say, 'The hell with it.' You say that you'd rather have nothing than settle for less. Understand?",
+                "author" => "Lyle Rogers (Ishtar)"
+            ],
+        ];
 
-            // Pick a random quote
-            $quote_of_the_day = $quotes[array_rand($quotes)];
+        // Pick a random quote
+        $quote_of_the_day = $quotes[array_rand($quotes)];
 
-            // Display it
-            echo "<blockquote>";
-            echo "<p>“{$quote_of_the_day['text']}”</p>";
-            echo "{$quote_of_the_day['author']}";
-            echo "</blockquote>";
-            ?>
-        </footer>
+        // Display it
+        echo "<blockquote>";
+        echo "<p>“{$quote_of_the_day['text']}”</p>";
+        echo "<footer>- {$quote_of_the_day['author']} </footer>";
+        echo "</blockquote>";
+        ?>
+    </footer>
 
 </body>
 
