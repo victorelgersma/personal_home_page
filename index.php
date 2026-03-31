@@ -34,10 +34,10 @@
         <section>
             <h2>Writing</h2>
             <p><a href="https://vjbe.net/pdfs/2026/03/lhopital-2.pdf">The Origins of L'Hôpital's Rule </a><span
-                    class="marginnote">Report for "History of Mathematics Seminar" taught by Viktor Blåsjö</span> (March 2026) 
+                    class="marginnote">Report for "History of Mathematics Seminar" taught by <a href="https://www.uu.nl/staff/VNEBlasjo">Viktor Blåsjö</a></span> (March 2026) 
             </p>
             <p><a href="https://vjbe.net/pdfs/2026-03-18-Longitude-6.pdf">The Harrison H1 chronometer </a><span
-                    class="marginnote">Essay for "Science and the Public" taught by R.B. Wille</span> (March 2026) 
+                    class="marginnote">Essay for "Science and the Public" taught by <a href="https://www.uu.nl/staff/RBWille">Dr. R.B. Wille</a></span> (March 2026) 
             </p>
         </section>
 
