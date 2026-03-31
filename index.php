@@ -57,6 +57,8 @@
         <footer>
             <hr>
             <p style="font-style: italic;">Updated March 2026</p>
+                        <p style="font-style: italic;">View <a href="https://github.com/victorelgersma/personal_home_page">Source Code 🧑‍💻</a></p>
+
         </footer>
     </article>
 </body>
