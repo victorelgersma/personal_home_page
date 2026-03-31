@@ -25,19 +25,36 @@
             /* Tufte background highlight */
             border-bottom: 2px solid #111;
         }
+
+        blockquote {
+            font-style: italic;
+            border-left: 3px solid #ccc;
+            margin: 2rem 0;
+            padding-left: 1rem;
+            color: #333;
+        }
+
+        blockquote footer {
+            text-align: right;
+            font-style: normal;
+            color: #555;
+        }
     </style>
 </head>
 
 <body>
     <article>
         <h1>Victor Elgersma</h1>
+        <p>Thanks for 🏄 surfing by, stranger!</p>
         <section>
             <h2>Writing</h2>
             <p><a href="https://vjbe.net/pdfs/2026/03/lhopital-2.pdf">The Origins of L'Hôpital's Rule </a><span
-                    class="marginnote">Report for "History of Mathematics Seminar" taught by <a href="https://www.uu.nl/staff/VNEBlasjo">Viktor Blåsjö</a></span> (March 2026) 
+                    class="marginnote">Report for "History of Mathematics Seminar" taught by <a
+                        href="https://www.uu.nl/staff/VNEBlasjo">Dr. Viktor Blåsjö</a></span> (March 2026)
             </p>
             <p><a href="https://vjbe.net/pdfs/2026-03-18-Longitude-6.pdf">The Harrison H1 chronometer </a><span
-                    class="marginnote">Essay for "Science and the Public" taught by <a href="https://www.uu.nl/staff/RBWille">Dr. R.B. Wille</a></span> (March 2026) 
+                    class="marginnote">Essay for "Science and the Public" taught by <a
+                        href="https://www.uu.nl/staff/RBWille">Dr. R.B. Wille</a></span> (March 2026)
             </p>
         </section>
 
@@ -48,24 +65,48 @@
                 <p>
                     <a class="email-link" href="mailto:v.j.b.elgersma@students.uu.nl
 ">
-                    v.j.b.elgersma@students.uu.nl
+                        v.j.b.elgersma@students.uu.nl
                     </a>
                 </p>
             </div>
         </section>
         <section>
             <h2>Miscellaneous</h2>
-            <p><a href="https://fr.wikipedia.org/wiki/Arganier#/media/Fichier:Huile_d'argan_003.JPG">Goats in an argan tree</a></p>
+            <p><a href="https://fr.wikipedia.org/wiki/Arganier#/media/Fichier:Huile_d'argan_003.JPG">Goats in an argan
+                    tree</a></p>
 
         </section>
 
+</article>
         <footer>
             <hr>
             <p style="font-style: italic;">Updated March 2026</p>
-                        <p style="font-style: italic;">View <a href="https://github.com/victorelgersma/personal_home_page">Source Code 🧑‍💻</a></p>
+            <p style="font-style: italic;">View <a href="https://github.com/victorelgersma/personal_home_page">Source
+                    Code 🧑‍💻</a></p>
 
+            <?php
+            $quotes = [
+                [
+                    "text" => "The book of nature is written in the language of mathematics.",
+                    "author" => "Roger Bacon"
+                ],
+                [
+                    "text" => "Plato is my friend. Aristotle is my friend. But my biggest friend is the truth",
+                    "author" => "Isaac Newton"
+                ],
+            ];
+
+            // Pick a random quote
+            $quote_of_the_day = $quotes[array_rand($quotes)];
+
+            // Display it
+            echo "<blockquote>";
+            echo "<p>“{$quote_of_the_day['text']}”</p>";
+            echo "{$quote_of_the_day['author']}";
+            echo "</blockquote>";
+            ?>
         </footer>
-    </article>
+
 </body>
 
 </html>
