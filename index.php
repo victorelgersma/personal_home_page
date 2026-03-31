@@ -33,7 +33,7 @@
         <h1>Victor Elgersma</h1>
         <section>
             <h2>Writing</h2>
-            <p><a href="https://vjbe.net/pdfs/2026/03/lhopital-2.pdf">The origins of L'Hopital's Rule </a><span
+            <p><a href="https://vjbe.net/pdfs/2026/03/lhopital-2.pdf">The Origins of L'Hôpital's Rule </a><span
                     class="marginnote">Report for "History of Mathematics Seminar" taught by Viktor Blåsjö</span> (March 2026) 
             </p>
             <p><a href="https://vjbe.net/pdfs/2026-03-18-Longitude-6.pdf">The Harrison H1 chronometer </a><span
