@@ -48,11 +48,11 @@
         <p>Thanks for 🏄 surfing by, stranger!</p>
         <section>
             <h2>Writing</h2>
-            <p><a href="https://vjbe.net/pdfs/2026/03/lhopital-2.pdf">The Origins of L'Hôpital's Rule </a><span
+            <p><a href="https://vjbe.net/pdfs/2026/03/lhopital-2.pdf" target="_blank">The Origins of L'Hôpital's Rule </a><span
                     class="marginnote">Report for "History of Mathematics Seminar" taught by <a
                         href="https://www.uu.nl/staff/VNEBlasjo">Dr. Viktor Blåsjö</a></span> (March 2026)
             </p>
-            <p><a href="https://vjbe.net/pdfs/2026-03-18-Longitude-6.pdf">The Harrison H1 chronometer </a><span
+            <p><a href="https://vjbe.net/pdfs/2026-03-18-Longitude-6.pdf" target="_blank">The Harrison H1 chronometer </a><span
                     class="marginnote">Essay for "Science and the Public" taught by <a
                         href="https://www.uu.nl/staff/RBWille">Dr. R.B. Wille</a></span> (March 2026)
             </p>
@@ -74,12 +74,12 @@
             <h2>Miscellaneous</h2>
             <ul>
                 <li>
-                    <p><a href="https://fr.wikipedia.org/wiki/Arganier#/media/Fichier:Huile_d'argan_003.JPG">Goats in an
+                    <p><a href="https://fr.wikipedia.org/wiki/Arganier#/media/Fichier:Huile_d'argan_003.JPG" target='_blank'>Goats in an
                             argan
                             tree</a></p>
                 </li>
                 <li>
-                    <a href="https://ishtarthemovie.com/downloads/RogersAndClarke-DangerousBusiness.mp3">Ishtar!</a>
+                    <a href="https://ishtarthemovie.com/downloads/RogersAndClarke-WardrobeOfLove.mp3" target="_blank">Ishtar!</a>
                 </li>
             </ul>
 
@@ -90,7 +90,7 @@
     <footer>
         <hr>
         <p style="font-style: italic;">Updated March 2026</p>
-        <p style="font-style: italic;">View <a href="https://github.com/victorelgersma/personal_home_page">Source
+        <p style="font-style: italic;">View <a href="https://github.com/victorelgersma/personal_home_page" target="_blank">Source
                 Code 🧑‍💻</a></p>
 
         <?php
