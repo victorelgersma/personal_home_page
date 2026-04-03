@@ -89,7 +89,10 @@
 
 
         </section>
-
+        <section>
+            <h2>Videos</h2>
+            <a href="https://www.youtube.com/watch?v=O3OZH1VJQiI">Risk Aversion and the Endowment Effect</a><span class="marginnote">2019 Finalist of the PsychShorts Video Contest</span>
+        </section>
     </article>
     <footer>
         <hr>
