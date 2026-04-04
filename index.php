@@ -67,7 +67,7 @@
             <ul>
                 <li>
                     <a href="https://www.youtube.com/watch?v=O3OZH1VJQiI" target="_blank">Risk Aversion and the
-                        Endowment Effect</a><span class="marginnote">2019 Finalist of the PsychShorts Video Contest.
+                        Endowment Effect</a><span class="marginnote">2019 Finalist of the PsycShorts Video Contest.
                         Made with Lachlan Peel.</span>
                 </li>
                 <li>
