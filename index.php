@@ -7,11 +7,6 @@
     <title>Victor Elgersma</title>
     <link rel="stylesheet" href="/tufte.css" />
     <style>
-        .contact-box {
-            margin-top: 2rem;
-            padding: 1rem 0;
-            border-top: 1px solid #ccc;
-        }
 
         .email-link {
             font-weight: bold;
@@ -24,20 +19,6 @@
             background-color: #fffdfb;
             /* Tufte background highlight */
             border-bottom: 2px solid #111;
-        }
-
-        blockquote {
-            font-style: italic;
-            border-left: 3px solid #ccc;
-            margin: 2rem 0;
-            padding-left: 1rem;
-            color: #333;
-        }
-
-        blockquote footer {
-            text-align: right;
-            font-style: normal;
-            color: #555;
         }
     </style>
 </head>
@@ -96,35 +77,42 @@
 
             </ul>
         </section>
+
+
     </article>
+
     <footer>
-        <?php
-        $quotes = require 'quotes.php';
+        <section>
+                <h2>Contact</h2>
+                <p>
+                    <a class="email-link" href="mailto:v.j.b.elgersma@students.uu.nl">
+                        v.j.b.elgersma@students.uu.nl
+                    </a>
+                </p>
+        </section>
 
-        // Pick a random quote
-        $quote_of_the_day = $quotes[array_rand($quotes)];
+        <section>
+            <?php
+            $quotes = require 'quotes.php';
 
-        // Display it
-        echo "<blockquote>";
-        echo "<p>“{$quote_of_the_day['text']}”</p>";
-        echo "<footer>- {$quote_of_the_day['author']} </footer>";
-        echo "</blockquote>";
-        ?>
-        <div class="contact-box">
-        <h2>Contact</h2>
-            <p>
-                <a class="email-link" href="mailto:v.j.b.elgersma@students.uu.nl">
-                    v.j.b.elgersma@students.uu.nl
-                </a>
-            </p>
-        </div>
-        <hr>
-        <p style="font-style: italic;">Updated March 2026</p>
-        <p style="font-style: italic;">View <a href="https://github.com/victorelgersma/personal_home_page"
-                target="_blank">Source
-                Code 🧑‍💻</a></p>
+            // Pick a random quote
+            $quote_of_the_day = $quotes[array_rand($quotes)];
+
+            // Display it
+            echo "<blockquote>";
+            echo "<p>“{$quote_of_the_day['text']}”</p>";
+            echo "<footer>- {$quote_of_the_day['author']} </footer>";
+            echo "</blockquote>";
+            ?>
+        </section>
+        <section>
 
 
+            <p style="font-style: italic;">Updated March 2026</p>
+            <p style="font-style: italic;">View on <a href="https://github.com/victorelgersma/personal_home_page"
+                    target="_blank">
+                    Github‍💻</a></p>
+        </section>
     </footer>
 
 </body>
