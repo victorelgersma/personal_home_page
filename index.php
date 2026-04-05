@@ -29,8 +29,7 @@
         <p>Thanks for 🏄 surfing by, stranger!</p>
         <section>
             <h2>Writing</h2>
-            <p><a href="https://vjbe.net/pdfs/2026/2026-04-05-The%20Origins%20of%20the%20L%27H%C3%B4pital-Bernoulli%20Rule%20%28Report%29.pdf-6" target="_blank">How The Marquis de L'Hôpital
-                    bought his famous "Rule" from Johann Bernoulli </a><span class="marginnote">Report for "History of
+            <p><a href="https://vjbe.net/pdfs/2026/2026-04-05-The%20Origins%20of%20the%20L%27H%C3%B4pital-Bernoulli%20Rule%20%28Report%29.pdf-6" target="_blank">L'Hôpital's Rule: Origins</a><span class="marginnote">Report for "History of
                     Mathematics Seminar" taught by <a href="https://www.uu.nl/staff/VNEBlasjo">Dr. Viktor
                         Blåsjö</a></span> (March 2026)
             </p>
