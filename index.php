@@ -19,6 +19,27 @@
             /* Tufte background highlight */
             border-bottom: 2px solid #111;
         }
+
+        dl {
+            margin: 0;
+        }
+
+        dt {
+            font-weight: bold;
+            margin-top: 1.2em;
+        }
+
+        dd {
+            margin-left: 1.5em;
+            position: relative;
+        }
+
+        dd::before {
+            content: "→";
+            position: absolute;
+            left: -1.2em;
+            color: #666;
+        }
     </style>
 </head>
 
@@ -27,71 +48,11 @@
         <h1>Victor Elgersma</h1>
         <p>Thanks for 🏄 surfing by, stranger!</p>
         <section>
-            <h2>My Writing</h2>
-            <p>
-                <a href="https://vjbe.net/pdfs/2026-04-13-SciPub%20Research%20Essay%202.pdf-3" target="_blank"> Piety,
-                    Politics, and the
-                    Nebular Hypothesis in the British Press (1844-1846)
-                </a><span class="marginnote">(April 2026) </span>
-            </p>
-            <span>
-                I analyze how various publics conceptualized the formation of the solar system in the middle of the 19th
-                century.
-            </span>
-            <br>
-            <span>Essay for "Science and the Public"
-                taught by <a href="https://www.uu.nl/staff/RBWille">Dr. R.B. Wille</a>
-            </span>
-            <p><a href="https://vjbe.net/pdfs/2026/2026-04-08-The%20Origins%20of%20the%20L%27H%C3%B4pital-Bernoulli%20Rule%20%28Report%29-2.pdf"
-                    target="_blank">L'Hôpital's Rule: Origins (1692-1696)</a><span class="marginnote">(April 2026)
-                </span>
-            </p>
-            <span>A line-by-line commentary of Chapter 9 of L’Hôpital’s
-                <em> Analyse </em>(1696) and a letter from Bernoulli to
-                L’Hôpital from July 1694.
-            </span>
-            <br>
-            <span>Report for
-                "History of
-                Mathematics Seminar" taught by <a href="https://www.uu.nl/staff/VNEBlasjo">Dr. Viktor
-                    Blåsjö</a>
-            </span>
-            <p>
-                <a href="https://vjbe.net/pdfs/2026-03-18-Longitude-6.pdf" target="_blank">The Harrison
-                    H1 Chronometer (1735) </a><span class="marginnote">(March 2026) </span>
-            </p>
-            <span>
-                How John Harrison's mechanical genius revolutionised navigation despite the scepticism of the scientific
-                elite.
-            </span>
-            <br>
-            <span>Essay for "Science and the Public"
-                taught by <a href="https://www.uu.nl/staff/RBWille">Dr. R.B. Wille</a>
-            </span>
-        </section>
+        <?php include 'partials/my_writing.php'; ?>
 
 
 
-        <section>
-            <h2>My Videos</h2>
-            <p>
-                <a href="https://www.youtube.com/watch?v=O3OZH1VJQiI" target="_blank">Risk Aversion and the
-                    Endowment Effect</a><span class="marginnote">2019 </span>
-    
-            </p>
-            <span>Finalist of the PsycShorts Video Contest.
-                    Made with Lachlan Peel.</span>
-
-            <p>
-                <a href="https://www.youtube.com/watch?v=flqSAQyCyPo" target="_blank">The Wave-Particle Duality of
-                    Matter</a>
-                    <span class="marginnote">2018 </span>
-            </p>
-            <span>Finalist. Breakthrough Junior Challenge</span>
-
-
-
-        </section>
+    <?php include 'partials/my_videos.php'; ?>
 
         <section>
             <h2>Just for Fun</h2>
@@ -144,7 +105,7 @@
         <section>
 
 
-            <p style="font-style: italic;">Updated March 2026</p>
+            <p style="font-style: italic;">Updated April 2026</p>
             <p style="font-style: italic;">View on <a href="https://github.com/victorelgersma/personal_home_page"
                     target="_blank">
                     Github‍💻</a></p>
