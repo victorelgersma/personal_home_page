@@ -27,11 +27,14 @@
         dt {
             font-weight: bold;
             margin-top: 1.2em;
+            margin-top: 2.5em;
+            margin-bottom: 0.5em;
         }
 
         dd {
             margin-left: 1.5em;
             position: relative;
+            margin-bottom: 0.8em;
         }
 
         dd::before {
@@ -48,10 +51,10 @@
         <h1>Victor Elgersma</h1>
         <p>Thanks for 🏄 surfing by, stranger!</p>
         <section>
-        <?php include 'partials/my_writing.php'; ?>
-        <?php include 'partials/my_videos.php'; ?>
-        <?php include 'partials/just_for_fun.php'; ?>
-        <?php include 'partials/wip.php'; ?>
+            <?php include 'partials/my_writing.php'; ?>
+            <?php include 'partials/my_videos.php'; ?>
+            <?php include 'partials/just_for_fun.php'; ?>
+            <?php include 'partials/wip.php'; ?>
 
     </article>
 
@@ -67,6 +70,7 @@
         </section>
 
         <section>
+            <h2>Quote of the Day</h2>
             <?php
             $quotes = require 'quotes.php';
 
@@ -81,12 +85,11 @@
             ?>
         </section>
         <section>
-
-
-            <p style="font-style: italic;">Updated April 2026</p>
-            <p style="font-style: italic;">View on <a href="https://github.com/victorelgersma/personal_home_page"
-                    target="_blank">
-                    Github‍💻</a></p>
+            <center>
+                <p style="">Updated April 2026 | View on <a href="https://github.com/victorelgersma/personal_home_page"
+                        target="_blank">
+                        GitHub‍💻</a></p>
+            </center>
         </section>
     </footer>
 
