@@ -3,6 +3,11 @@
     <dl>
         <dt>April 2026</dt>
         <dd>
+            <a href="https://vjbe.net/pdfs/2026-04-16-modern_life_sciences_research_essay_as_submitted.pdf" target="_blank">
+                Darwin, Dawkins, Personification as "Epistemic Practice" and the persistent essentialization of "Specieshood"
+            </a>
+        </dd>
+        <dd>
             <a href="https://vjbe.net/pdfs/2026-04-13-SciPub%20Research%20Essay%202-4.pdf" target="_blank">
                 The Nebular Hypothesis and the Mid-Victorian Press (1844-1846)
             </a>
