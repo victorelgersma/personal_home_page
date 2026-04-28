@@ -31,7 +31,15 @@ $quotes = [
         "text" => "Sapere Aude![3] “Have courage to use your own understanding!”--that is the motto of enlightenment.",
         "author" => "Immanuel Kant",
         "year" => 1784,
-
+    ],
+    // as quoted in Age of Enlightenment, Gilder 2008:
+    [
+        "text" => "I'd rather be clear and wrong than foggy and right.",
+        "author" => "John Bell"
+    ],
+    [
+        "text" => "We do not know where we are stupid until we stick our necks out",
+        "author" => "Richard Feynman"
     ]
 ];
 

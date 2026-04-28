@@ -49,7 +49,6 @@
 <body>
     <article>
         <h1>Victor Elgersma</h1>
-        <p>Thanks for 🏄 surfing by, stranger!</p>
         <section>
             <?php include 'partials/my_writing.php'; ?>
             <?php include 'partials/my_videos.php'; ?>
