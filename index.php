@@ -103,9 +103,9 @@
         </section>
         <section>
             <center>
-                <p style="">Updated April 2026 | View on <a href="https://github.com/victorelgersma/personal_home_page"
+                <p style="">Updated April 2026 | <a href="https://github.com/victorelgersma/personal_home_page"
                         target="_blank">
-                        GitHub‍💻</a></p>
+                        GitHub‍</a></p>
             </center>
         </section>
     </footer>
