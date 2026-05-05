@@ -40,6 +40,10 @@ $quotes = [
     [
         "text" => "We do not know where we are stupid until we stick our necks out",
         "author" => "Richard Feynman"
+    ],
+    [
+        "text" => "Is there more to this life than work and friends and the touch of a loved one and nature and happiness?",
+        "author" => "ad for Good Work Patreon page"
     ]
 ];
 

@@ -3,7 +3,7 @@
     <dl>
         <dt>May 2026</dt>
         <dd>
-            <a href="https://samizdat.vjbe.net/2026-05-02-personification-heuristic-biology-2-5.pdf" target="_blank">
+            <a href="https://samizdat.vjbe.net/2026-05-05-personification-heuristic-biology-5.pdf" target="_blank">
             Personification as 'Epistemic Practice' in Evolutionary Biology
             </a>
         </dd>
