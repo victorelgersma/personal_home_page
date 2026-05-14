@@ -27,5 +27,10 @@
                 The Harrison H1 Chronometer (1735)
             </a>
         </dd>
+        <dd>
+            <a href="https://samizdat.vjbe.net/2026-05-12-Newton%20Resubmission-1.pdf" target="_blank">
+    Newton's Binomial Theorem: Origins
+            </a>
+        </dd>
     </dl>
 </section>

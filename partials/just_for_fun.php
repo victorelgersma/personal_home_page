@@ -8,14 +8,17 @@
                 tree</a>
         </li>
         <li>
-            <a href="https://ishtarthemovie.com/downloads/RogersAndClarke-DangerousBusiness.mp3"
+            <a href="https://ishtarthemovie.com/"
                 target="_blank">Ishtar!</a>
         </li>
         <li>
-            <a href="https://www.youtube.com/watch?v=DJsn1QivbKM" target="_blank">Orangutan Driving a Golf Cart
+            <a href="https://samizdat.vjbe.net/2026-05-14-Orangutan%20driving%20golf%20cart%20like%20in%20The%20Sopranos.publer.com.mp4" target="_blank">Orangutan Driving a Golf Cart
             </a>
         </li>
+<li>
+<a href="https://astronomy.org/moravian/C00-Last%20Question.pdf">
+    AI reverses second law of thermodynamics (Isaac Asimov's The Last Question)
+</a>
+</li>
     </ul>
-
-
 </section>
