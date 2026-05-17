@@ -1,6 +1,3 @@
-   
-
-        <section>
-                Updated April 2026
-    
-        </section>
+<section>
+    Updated <?= htmlspecialchars(trim(file_get_contents('last_updated.txt'))) ?>
+</section>

@@ -2,9 +2,9 @@
 // Define available subpages and their configuration
 $pages = [
     'writing' => ['title' => 'Writing', 'partial' => 'partials/my_writing.php', 'back' => true],
-    'videos'  => ['title' => 'Videos', 'partial' => 'partials/my_videos.php', 'back' => true],
-    'fun'     => ['title' => 'Just for Fun', 'partial' => 'partials/just_for_fun.php', 'back' => true],
-    'wip'     => ['title' => 'Work in Progress', 'partial' => 'partials/wip.php', 'back' => true],
+    'videos' => ['title' => 'Videos', 'partial' => 'partials/my_videos.php', 'back' => true],
+    'fun' => ['title' => 'Just for Fun', 'partial' => 'partials/just_for_fun.php', 'back' => true],
+    'wip' => ['title' => 'Work in Progress', 'partial' => 'partials/wip.php', 'back' => true],
     'thought' => ['title' => 'Food for Thought', 'partial' => 'partials/food_for_thought.php', 'back' => true],
     'contact' => ['title' => 'Contact', 'partial' => 'partials/contact_content.php', 'back' => true],
     'slides' => ['title' => 'Slides', 'partial' => 'partials/slides.php', 'back' => true],
@@ -23,6 +23,7 @@ $title = $currentPage === 'home' ? 'Victor Elgersma' : $pageData['title'] . ' - 
 ?>
 <!doctype html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -30,6 +31,7 @@ $title = $currentPage === 'home' ? 'Victor Elgersma' : $pageData['title'] . ' - 
     <link rel="stylesheet" href="/tufte.css" />
     <link rel="stylesheet" href="/custom.css" />
 </head>
+
 <body>
     <article>
         <?php if ($currentPage !== 'home'): ?>
@@ -38,18 +40,44 @@ $title = $currentPage === 'home' ? 'Victor Elgersma' : $pageData['title'] . ' - 
 
         <?php if ($currentPage === 'home'): ?>
             <h1>Victor Elgersma</h1>
-            <section>
-                <nav>
-                    <ul>
-                        <li><a href="?page=writing">Writing</a></li>
-                        <li><a href="?page=slides">Slides</a></li>
-                        <li><a href="?page=videos">Videos</a></li>
-                        <li><a href="?page=fun">Just for Fun</a></li>
-                        <li><a href="?page=wip">Work in Progress</a></li>
-                        <li><a href="?page=thought">Food for Thought</a></li>
-                        <li><a href="?page=contact">Contact</a></li>
-                    </ul>
-                </nav>
+
+            <section class="home-grid">
+
+                <a class="home-tile" href="?page=writing">
+                    <h2>Writing</h2>
+                    <p>Essays, history of science, mathematics.</p>
+                </a>
+
+                <a class="home-tile" href="?page=slides">
+                    <h2>Slides</h2>
+                    <p>Presentations and talks.</p>
+                </a>
+
+                <a class="home-tile" href="?page=videos">
+                    <h2>Videos</h2>
+                    <p>Old educational videos and animations.</p>
+                </a>
+
+                <a class="home-tile" href="?page=wip">
+                    <h2>Projects</h2>
+                    <p>Small web experiments and things in progress.</p>
+                </a>
+
+                <a class="home-tile" href="?page=thought">
+                    <h2>Food for Thought</h2>
+                    <p>Interesting papers, articles, and ideas.</p>
+                </a>
+
+                <a class="home-tile" href="?page=fun">
+                    <h2>Just for Fun</h2>
+                    <p>Internet curiosities and miscellaneous delights.</p>
+                </a>
+
+                <a class="home-tile contact-tile" href="?page=contact">
+                    <h2>Contact</h2>
+                    <p>Email, GitHub, and assorted coordinates.</p>
+                </a>
+
             </section>
         <?php else: ?>
             <?php include $pageData['partial']; ?>
@@ -60,4 +88,5 @@ $title = $currentPage === 'home' ? 'Victor Elgersma' : $pageData['title'] . ' - 
         <?php include 'partials/footer.php'; ?>
     </footer>
 </body>
+
 </html>
