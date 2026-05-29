@@ -2,16 +2,21 @@
     <h2>Food For Thought 💭 </h2>
     <ul>
         <li>
-            <a href="https://theconversation.com/ai-veganism-some-peoples-issues-with-ai-parallel-vegans-concerns-about-diet-260277"> AI 'veganism' </a> 
+            <a
+                href="https://theconversation.com/ai-veganism-some-peoples-issues-with-ai-parallel-vegans-concerns-about-diet-260277">
+                AI 'veganism' </a>
         </li>
         <li>
-<a href="https://events.perimeterinstitute.ca/event/1013/contributions/1991/attachments/188/307/Diana_Taschetto_Talk%20Perimeter%202025.pdf">The Dual Dynamical Foundation of Orthodox Quantum Mechanics</a>
+            <a
+                href="https://events.perimeterinstitute.ca/event/1013/contributions/1991/attachments/188/307/Diana_Taschetto_Talk%20Perimeter%202025.pdf">The
+                Dual Dynamical Foundation of Orthodox Quantum Mechanics</a>
         </li>
         <li>
-<a href="https://www.cnbc.com/amp/2026/05/12/stanford-professor-teaches-tech-free-classesthe-skill-he-wants-students-to-build.html">
-Stanford Professor Teaches Tech Free Classes
-</a>
-</li>
+            <a
+                href="https://www.cnbc.com/amp/2026/05/12/stanford-professor-teaches-tech-free-classesthe-skill-he-wants-students-to-build.html">
+                Stanford Professor Teaches Tech Free Classes
+            </a>
+        </li>
 
     </ul>
 

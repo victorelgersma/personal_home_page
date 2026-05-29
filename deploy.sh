@@ -1,6 +1,8 @@
-#!/bin/bash
+#!/opt/homebrew/bin/bash
 
 # Write deployment timestamp
+./convert-markdown.sh
+
 date +"%B %Y" > last_updated.txt
 
 cd ../

@@ -8,6 +8,7 @@ $pages = [
     'thought' => ['title' => 'Food for Thought', 'partial' => 'partials/food_for_thought.php', 'back' => true],
     'contact' => ['title' => 'Contact', 'partial' => 'partials/contact_content.php', 'back' => true],
     'slides' => ['title' => 'Slides', 'partial' => 'partials/slides.php', 'back' => true],
+    'bell-blues' => ['title' => "Bell's Theorem Blues", 'partial' => 'misc-html/bell-blues.html', 'back' => true],
 ];
 
 // Get the requested page, default to home if empty or invalid
@@ -43,6 +44,10 @@ $title = $currentPage === 'home' ? 'Victor Elgersma' : $pageData['title'] . ' - 
 
             <section class="home-grid">
 
+                <a class="home-tile contact-tile" href="?page=contact">
+                    <h2>Contact</h2>
+                </a>
+
                 <a class="home-tile" href="?page=writing">
                     <h2>Writing</h2>
                     <p>Essays, history of science, mathematics.</p>
@@ -73,10 +78,6 @@ $title = $currentPage === 'home' ? 'Victor Elgersma' : $pageData['title'] . ' - 
                     <p>Internet curiosities and miscellaneous delights.</p>
                 </a>
 
-                <a class="home-tile contact-tile" href="?page=contact">
-                    <h2>Contact</h2>
-                    <p>Email, GitHub, and assorted coordinates.</p>
-                </a>
 
             </section>
         <?php else: ?>
