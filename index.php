@@ -9,6 +9,7 @@ $pages = [
     'contact' => ['title' => 'Contact', 'partial' => 'partials/contact_content.php', 'back' => true],
     'slides' => ['title' => 'Slides', 'partial' => 'partials/slides.php', 'back' => true],
     'bell-blues' => ['title' => "Bell's Theorem Blues", 'partial' => 'misc-html/bell-blues.html', 'back' => true],
+    'remote-ok' => ['title' => "Remote OK", 'partial' => 'misc-html/remote-work.html', 'back' => true],
 ];
 
 // Get the requested page, default to home if empty or invalid

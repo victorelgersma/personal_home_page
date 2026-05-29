@@ -8,5 +8,9 @@
         <li>
             <a href="https://oldnews.vjbe.net">Old News </a>
         </li>
+
+        <li>
+            <a href="https://vjbe.net/?page=remote-ok"> Remote Work Spots </a>
+        </li>
     </ul>
 </section>
