@@ -43,6 +43,7 @@ $title = $currentPage === 'home' ? 'Victor Elgersma' : $pageData['title'] . ' - 
 
         <?php if ($currentPage === 'home'): ?>
             <h1>Victor Elgersma</h1>
+            <p>Welcome to <i>mon site web</i></p>
 
             <section class="home-grid">
 

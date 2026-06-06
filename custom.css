@@ -28,6 +28,9 @@ a:hover {
     background-color: rgba(127,127,127,0.05);
 }
 
+img {
+    max-width: 20%;
+}
 /* Hover */
 .home-tile:hover {
     transform: translateY(-2px);

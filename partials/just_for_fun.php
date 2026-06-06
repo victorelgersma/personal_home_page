@@ -16,6 +16,9 @@
             </a>
         </li>
         <li>
+            <a href="https://samizdat.vjbe.net/2026-06-05.brief-history-of-the-world-11.pdf">Gianni Rodari's A Brief History of the World (Storia Universale)</a>
+        </li>
+        <li>
             <a href="https://astronomy.org/moravian/C00-Last%20Question.pdf">
                 AI reverses second law of thermodynamics (Isaac Asimov's The Last Question)
             </a>
