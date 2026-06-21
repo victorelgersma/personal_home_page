@@ -10,7 +10,7 @@
         </li>
 
         <li>
-            <a href="https://vjbe.net/?page=remote-ok"> Remote Work Spots </a>
+            <a href="https://vjbe.net/?page=amsterdam-spots"> Fav Spots in Amsterdam</a>
         </li>
         <li>
             <a href="https://invertlogarithmicpowerseries-btifvhzwbwwcgt6zvpw8r2.streamlit.app/"> Inverting Power series for $ln(1+x)$ </a>

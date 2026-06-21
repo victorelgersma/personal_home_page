@@ -9,7 +9,8 @@ $pages = [
     'contact' => ['title' => 'Contact', 'partial' => 'partials/contact_content.php', 'back' => true],
     'slides' => ['title' => 'Slides', 'partial' => 'partials/slides.php', 'back' => true],
     'bell-blues' => ['title' => "Bell's Theorem Blues", 'partial' => 'misc-html/bell-blues.html', 'back' => true],
-    'remote-ok' => ['title' => "Remote OK", 'partial' => 'misc-html/remote-work.html', 'back' => true],
+    'spots' => ['title' => "Remote OK", 'partial' => 'misc-html/spots.html', 'back' => true],
+    'amsterdam-spots' => ['title' => "Remote OK", 'partial' => 'misc-html/amsterdam-spots.html', 'back' => true],
     'card' => ['title' => "card", 'partial' => 'misc-html/card.html', 'back' => true],
 ];
 
@@ -31,7 +32,7 @@ $title = $currentPage === 'home' ? 'Victor Elgersma' : $pageData['title'] . ' - 
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title><?= htmlspecialchars($title) ?></title>
-    <link rel="stylesheet" href="/tufte.css" />
+    <!-- <link rel="stylesheet" href="/tufte.css" /> -->
     <link rel="stylesheet" href="/custom.css" />
 </head>
 
@@ -42,8 +43,7 @@ $title = $currentPage === 'home' ? 'Victor Elgersma' : $pageData['title'] . ' - 
         <?php endif; ?>
 
         <?php if ($currentPage === 'home'): ?>
-            <h1>Victor Elgersma</h1>
-            <p>Welcome to <i>mon site web</i></p>
+            <h1>Homepage of V.J.B Elgersma</h1>
 
             <section class="home-grid">
 
