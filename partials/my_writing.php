@@ -29,7 +29,7 @@
 
         <dt>March 2026</dt>
         <dd>
-            <a href="https://vjbe.net/pdfs/2026-03-18-Longitude-6.pdf" target="_blank">
+            <a href="https://samizdat.vjbe.net/2026-03-18-Longitude-6.pdf" target="_blank">
                 The Harrison H1 Chronometer (1735)
             </a>
         </dd>

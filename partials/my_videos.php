@@ -8,9 +8,7 @@
             <a href="https://www.youtube.com/watch?v=O3OZH1VJQiI" target="_blank">
                 Risk Aversion and the Endowment Effect
             </a>
-            <span class="marginnote">
-                PsycShorts Video Contest finalist.
-            </span>
+                            (PsycShorts Video Contest finalist)
         </dd>
 
         <dt>2018</dt>
@@ -18,9 +16,7 @@
             <a href="https://www.youtube.com/watch?v=flqSAQyCyPo" target="_blank">
                 The Wave-Particle Duality of Matter
             </a>
-            <span class="marginnote">
-                Breakthrough Junior Challenge finalist.
-            </span>
+                (Breakthrough Junior Challenge finalist.)
         </dd>
 
     </dl>

@@ -1,5 +1,6 @@
 <section>
-    <h2>Just for Fun</h2>
+    <h2>On the 'Net</h2>
+    <p>Things to do, online, now guys! </p>
     <ul>
         <li>
             <a href="https://fr.wikipedia.org/wiki/Arganier#/media/Fichier:Huile_d'argan_003.JPG" target='_blank'>Goats
@@ -16,15 +17,17 @@
             </a>
         </li>
         <li>
-            <a href="https://samizdat.vjbe.net/2026-06-05.brief-history-of-the-world-11.pdf">Gianni Rodari's A Brief History of the World (Storia Universale)</a>
+            <a href="https://samizdat.vjbe.net/2026-06-05.brief-history-of-the-world-11.pdf">Gianni Rodari's A Brief
+                History of the World (Storia Universale)</a>
         </li>
         <li>
             <a href="https://astronomy.org/moravian/C00-Last%20Question.pdf">
-                AI reverses second law of thermodynamics (Isaac Asimov's The Last Question)
+                The Last Question | Isaac Asimov
             </a>
         </li>
         <li>
             <a href="?page=bell-blues">Bell's Theorem Blues</a>
         </li>
-    </ul>
+        <li><a href="https://archive.is/1zsq4">The Case Against Travel | Agnes Callard</a></li>
+        <li><a href="https://degooglisons-internet.org/en/">DeGoogling</a></li>
 </section>
