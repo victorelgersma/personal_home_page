@@ -1,12 +1,7 @@
 <?php
 // Define available subpages and their configuration
 $pages = [
-    'writing' => ['title' => 'Writing', 'partial' => 'partials/my_writing.php', 'back' => true],
-    'videos' => ['title' => 'Videos', 'partial' => 'partials/my_videos.php', 'back' => true],
-    'net' => ['title' => 'Just for Fun', 'partial' => 'partials/on_the_net.php', 'back' => true],
-    'wip' => ['title' => 'Work in Progress', 'partial' => 'partials/wip.php', 'back' => true],
     'cv' => ['title' => 'CV', 'partial' => 'partials/cv.php', 'back' => true],
-    'slides' => ['title' => 'Slides', 'partial' => 'partials/slides.php', 'back' => true],
     'bell-blues' => ['title' => "Bell's Theorem Blues", 'partial' => 'misc-html/bell-blues.html', 'back' => true],
     'spots' => ['title' => "Remote OK", 'partial' => 'misc-html/spots.html', 'back' => true],
     'card' => ['title' => "card", 'partial' => 'misc-html/card.html', 'back' => true],
@@ -53,19 +48,19 @@ $title = $currentPage === 'home' ? 'Victor Elgersma-Azmanov' : $pageData['title'
                     <a class="home-tile" href="https://samizdat.vjbe.net/2026-07-17-CV-1.pdf">
                         <h2>CV</h2>
                     </a>
-                    <a class="home-tile" href="?page=writing">
-                        <h2>Writing</h2>
-                        <p>Essays, history of science, mathematics.</p>
+                    <a class="home-tile" href="writing.php">
+                        <h2>Essays</h2>
+                        <p>History of science, mathematics.</p>
                     </a>
-                    <a class="home-tile" href="?page=slides">
+                    <a class="home-tile" href="slides.php">
                         <h2>Slides</h2>
                         <p>Presentations and talks.</p>
                     </a>
-                    <a class="home-tile" href="?page=videos">
+                    <a class="home-tile" href="videos.php">
                         <h2>Videos</h2>
                         <p>Educational videos & animations.</p>
                     </a>
-                    <a class="home-tile" href="?page=wip">
+                    <a class="home-tile" href="wip.php">
                         <h2>Projects</h2>
                         <p>Web experiments & works in progress.</p>
                     </a>
@@ -77,7 +72,7 @@ $title = $currentPage === 'home' ? 'Victor Elgersma-Azmanov' : $pageData['title'
                     <h2>A Good ID(ea)</h2>
                     <p>Campaign to re-introduce a physical student card at the UU</p>
                     </a>
-                    <a class="home-tile" href="?page=net">
+                    <a class="home-tile" href="on_the_net.php">
                         <h2>On the 'Net</h2>
                         <p>Internet curiosities and delights.</p>
                     </a>

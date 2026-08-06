@@ -1,4 +1,9 @@
 
+<?php
+$title = "Slides";
+include "partials/header.php";
+?>
+
 <ul>
 <li>
 <a href="https://samizdat.vjbe.net/2026-06-16-oldnews_presentation.pdf">Old News | Descartes Colloquium </a> (June 2026)

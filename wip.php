@@ -1,3 +1,9 @@
+<?php
+$title = "Work In Progress";
+include "partials/header.php";
+?>
+<h1> <?= $title ?>  </h1>
+
 <section>
 
     <h2> Work in Progress 🏗️ </h2>

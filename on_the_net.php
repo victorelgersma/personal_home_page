@@ -1,6 +1,10 @@
+<?php
+$title = "On the 'net";
+include "partials/header.php";
+?>
+<h1><?= $title ?>  </h1>
+
 <section>
-    <h2>On the 'Net</h2>
-    <p>Things to do, online, now guys! </p>
     <ul>
         <li>
             <a href="https://fr.wikipedia.org/wiki/Arganier#/media/Fichier:Huile_d'argan_003.JPG" target='_blank'>Goats

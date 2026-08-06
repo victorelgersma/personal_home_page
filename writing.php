@@ -1,3 +1,8 @@
+<?php
+$title = "Essays";
+include "partials/header.php";
+?>
+
 <section>
     <h2>My Writing</h2>
     <dl>
@@ -40,3 +45,5 @@
         </dd>
     </dl>
 </section>
+
+<?php include "partials/footer.php"; ?>

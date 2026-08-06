@@ -1,3 +1,10 @@
+<?php
+$title = "Food For Thought";
+include "partials/header.php";
+?>
+<h1><?= $title ?>  </h1>
+
+
 <h1 id="food-for-thought">Food For Thought 💭</h1>
 <ul>
 <li><a
