@@ -1,0 +1,200 @@
+
+    /* =========================
+   Base
+========================= */
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+    body {
+        background: #f8f8f8;
+        color: #1f1f1f;
+        font-family: "Fraunces",sans-serif;
+        margin: 0;
+        padding: 0;
+        line-height: 1.5;
+    }
+
+    * {
+        box-sizing: border-box;
+    }
+
+    /* Links: neutral, no blue */
+    a,
+    a:visited {
+        color: inherit;
+    }
+
+    a {
+        text-decoration: none;
+    }
+
+    article a {
+        text-decoration: underline;
+        text-decoration-color: #d0d0d0;
+        text-underline-offset: 3px;
+    }
+
+    article a:hover {
+        text-decoration-color: #111;
+    }
+
+    /* =========================
+   Layout
+========================= */
+
+    article {
+        max-width: 1050px;
+        margin: 3rem auto;
+        padding: 0 2rem;
+    }
+
+    /* =========================
+   HOME layout (structured, not playful)
+========================= */
+
+    .home-grid {
+        position: relative;
+        height: min(80vh, 720px);
+    }
+
+    /* =========================
+   Tiles (quiet cards, no playfulness)
+========================= */
+
+    .home-tile {
+        display: block;
+
+        max-width: 240px;
+        padding: 0.9rem 1rem;
+
+        background: #ffffff;
+        border: 1px solid #e6e6e6;
+        border-radius: 10px;
+
+        transition: box-shadow 0.15s ease, border-color 0.15s ease;
+    }
+
+    .home-tile:hover {
+        border-color: #bdbdbd;
+        box-shadow: 0 6px 18px rgba(0, 0, 0, 0.06);
+    }
+
+    .home-tile h2 {
+        margin: 0 0 0.25rem 0;
+        font-size: 1.05rem;
+        font-weight: 600;
+    }
+
+    .home-tile p {
+        margin: 0;
+        font-size: 0.88rem;
+        color: #666;
+        line-height: 1.35;
+    }
+
+    /* =========================
+   Footer
+========================= */
+
+    footer {
+        text-align: center;
+        margin-top: 4rem;
+        padding: 2rem 0;
+        font-size: 0.8rem;
+        color: #888;
+        border-top: 1px solid #eee;
+    }
+
+    /* =========================
+   Images
+========================= */
+
+    img {
+        max-width: 160px;
+        border-radius: 6px;
+    }
+
+    /* =========================
+   Subpages
+========================= */
+
+    article h1,
+    article h2 {
+        font-weight: 500;
+    }
+
+/* =========================
+       Mobile (Everything stacks cleanly)
+    ========================= */
+
+    @media (max-width: 768px) {
+        article {
+            margin: 2rem auto;
+            padding: 0 1.5rem; /* Slightly tighter padding for small screens */
+        }
+
+        /* Changes the main layout from 2-columns to 1-column stack */
+        .home-grid {
+            display: flex;
+            flex-direction: column;
+            gap: 2rem;
+            height: auto;
+            position: static;
+        }
+
+        /* Un-sticks the profile header so it scrolls normally */
+        .home-profile {
+            position: static;
+            text-align: center; /* Optional: centers headshot/title on mobile */
+        }
+
+        /* Turns the grid of links into a single vertical stack */
+        .home-links {
+            display: flex;
+            flex-direction: column;
+            gap: 1rem;
+        }
+
+        /* Ensures tiles stretch full-width and strip any old positioning */
+        .home-tile {
+            position: static;
+            transform: none !important;
+            width: 100%;
+            max-width: none;
+        }
+    }
+
+    /* =========================
+       HOME layout (Two Columns on Desktop)
+       Moved above mobile media query or safely kept if mobile overrides it
+    ========================= */
+
+    @media (min-width: 769px) {
+        .home-grid {
+            display: grid;
+            grid-template-columns: 1fr 2fr;
+            gap: 3rem;
+            align-items: start;
+            height: min(80vh, 720px);
+        }
+
+        .home-profile {
+            position: sticky;
+            top: 3rem;
+        }
+
+        .home-profile h1 {
+            margin-top: 0;
+            font-size: 2rem;
+        }
+
+        .home-links {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+            gap: 1.5rem;
+        }
+
+        .home-tile {
+            width: 100%;
+            max-width: none;
+        }
+    }

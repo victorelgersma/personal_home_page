@@ -12,5 +12,8 @@
             <a href="https://invertlogarithmicpowerseries-btifvhzwbwwcgt6zvpw8r2.streamlit.app/"> Inverting Power series
                 for $ln(1+x)$ </a>
         </li>
+        <li>
+            <a href="https://ahmed-awad-photo.vjbe.net/">Ahmed Abu Awad's Photo Portfolio</a>
+        </li>
     </ul>
 </section>
