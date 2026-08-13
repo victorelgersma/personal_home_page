@@ -1,200 +1,262 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600&display=swap');
 
-    /* =========================
+:root {
+    --background: #fafafa;
+    --text: #202020;
+    --muted: #666;
+    --border: #e5e5e5;
+    --card: #ffffff;
+    --hover: #c8c8c8;
+}
+
+
+/* =========================
    Base
 ========================= */
-@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 
-    body {
-        background: #f8f8f8;
-        color: #1f1f1f;
-        font-family: "Fraunces",sans-serif;
-        margin: 0;
-        padding: 0;
-        line-height: 1.5;
-    }
+* {
+    box-sizing: border-box;
+}
 
-    * {
-        box-sizing: border-box;
-    }
+body {
+    margin: 0;
+    padding: 0;
 
-    /* Links: neutral, no blue */
-    a,
-    a:visited {
-        color: inherit;
-    }
+    background: var(--background);
+    color: var(--text);
 
-    a {
-        text-decoration: none;
-    }
+    font-family: "Fraunces", Georgia, serif;
+    line-height: 1.6;
+}
 
-    article a {
-        text-decoration: underline;
-        text-decoration-color: #d0d0d0;
-        text-underline-offset: 3px;
-    }
 
-    article a:hover {
-        text-decoration-color: #111;
-    }
+article {
+    max-width: 1000px;
+    margin: 3rem auto;
+    padding: 0 2rem;
+}
 
-    /* =========================
-   Layout
+
+/* =========================
+   Typography
 ========================= */
 
-    article {
-        max-width: 1050px;
-        margin: 3rem auto;
-        padding: 0 2rem;
-    }
+h1,
+h2 {
+    font-weight: 500;
+}
 
-    /* =========================
-   HOME layout (structured, not playful)
+h1 {
+    margin-top: 0;
+}
+
+p {
+    margin-top: 0.25rem;
+}
+
+
+/* =========================
+   Links
 ========================= */
 
-    .home-grid {
-        position: relative;
-        height: min(80vh, 720px);
-    }
+a,
+a:visited {
+    color: inherit;
+}
 
-    /* =========================
-   Tiles (quiet cards, no playfulness)
+article a:not(.home-tile) {
+    text-decoration: underline;
+    text-decoration-color: #d4d4d4;
+    text-decoration-thickness: 1px;
+    text-underline-offset: 3px;
+}
+
+article a:not(.home-tile):hover {
+    text-decoration-color: var(--text);
+}
+
+
+/* =========================
+   Lists
 ========================= */
 
-    .home-tile {
-        display: block;
+ul,
+dl {
+    padding-left: 1.25rem;
+}
 
-        max-width: 240px;
-        padding: 0.9rem 1rem;
+dt {
+    margin-top: 1.5rem;
+    font-weight: 600;
+}
 
-        background: #ffffff;
-        border: 1px solid #e6e6e6;
-        border-radius: 10px;
+dd {
+    margin-left: 1rem;
+}
 
-        transition: box-shadow 0.15s ease, border-color 0.15s ease;
-    }
 
-    .home-tile:hover {
-        border-color: #bdbdbd;
-        box-shadow: 0 6px 18px rgba(0, 0, 0, 0.06);
-    }
+/* =========================
+   Homepage grid
+========================= */
 
-    .home-tile h2 {
-        margin: 0 0 0.25rem 0;
-        font-size: 1.05rem;
-        font-weight: 600;
-    }
+.home-links {
+    display: grid;
 
-    .home-tile p {
-        margin: 0;
-        font-size: 0.88rem;
-        color: #666;
-        line-height: 1.35;
-    }
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.25rem;
 
-    /* =========================
+    max-width: 850px;
+    margin: 5rem auto;
+}
+
+
+/* =========================
+   Name tile
+========================= */
+
+.home-title-tile {
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+
+    padding: 1rem;
+
+    text-align: center;
+}
+
+
+.home-title-tile h1 {
+    margin: 0;
+
+    font-size: 1.3rem;
+    font-weight: 500;
+}
+
+
+/* =========================
+   Homepage cards
+========================= */
+
+.home-tile {
+    position: relative;
+
+    display: block;
+
+    padding: 1rem;
+    padding-right: 2.5rem;
+
+    background: var(--card);
+
+    border: 1px solid var(--border);
+    border-radius: 10px;
+
+    text-decoration: none;
+
+    transition:
+        border-color 0.15s ease,
+        box-shadow 0.15s ease;
+}
+
+
+.home-tile:hover {
+    border-color: var(--hover);
+
+    box-shadow:
+        0 5px 16px rgba(0, 0, 0, 0.06);
+}
+
+
+.home-tile h2 {
+    margin: 0 0 0.3rem;
+
+    font-size: 1.1rem;
+}
+
+
+.home-tile p {
+    margin: 0;
+
+    color: var(--muted);
+    font-size: 0.9rem;
+}
+
+
+/* =========================
+   External link indicator
+========================= */
+
+.home-tile[href^="http"]::after {
+    content: "↗";
+
+    position: absolute;
+
+    right: 1rem;
+    top: 1rem;
+
+    font-size: 1rem;
+    color: var(--muted);
+
+    transition: transform 0.15s ease;
+}
+
+
+.home-tile[href^="http"]:hover::after {
+    transform: translate(2px, -2px);
+}
+
+
+/* =========================
    Footer
 ========================= */
 
-    footer {
-        text-align: center;
-        margin-top: 4rem;
-        padding: 2rem 0;
-        font-size: 0.8rem;
-        color: #888;
-        border-top: 1px solid #eee;
-    }
+footer {
+    max-width: 1000px;
 
-    /* =========================
-   Images
-========================= */
+    margin: 4rem auto 0;
+    padding: 2rem;
 
-    img {
-        max-width: 160px;
-        border-radius: 6px;
-    }
+    border-top: 1px solid #eee;
 
-    /* =========================
-   Subpages
-========================= */
+    text-align: center;
 
-    article h1,
-    article h2 {
-        font-weight: 500;
-    }
+    color: #888;
+    font-size: 0.85rem;
+}
+
 
 /* =========================
-       Mobile (Everything stacks cleanly)
-    ========================= */
+   Mobile
+========================= */
 
-    @media (max-width: 768px) {
-        article {
-            margin: 2rem auto;
-            padding: 0 1.5rem; /* Slightly tighter padding for small screens */
-        }
+@media (max-width: 768px) {
 
-        /* Changes the main layout from 2-columns to 1-column stack */
-        .home-grid {
-            display: flex;
-            flex-direction: column;
-            gap: 2rem;
-            height: auto;
-            position: static;
-        }
-
-        /* Un-sticks the profile header so it scrolls normally */
-        .home-profile {
-            position: static;
-            text-align: center; /* Optional: centers headshot/title on mobile */
-        }
-
-        /* Turns the grid of links into a single vertical stack */
-        .home-links {
-            display: flex;
-            flex-direction: column;
-            gap: 1rem;
-        }
-
-        /* Ensures tiles stretch full-width and strip any old positioning */
-        .home-tile {
-            position: static;
-            transform: none !important;
-            width: 100%;
-            max-width: none;
-        }
+    article {
+        margin: 2rem auto;
+        padding: 0 1.25rem;
     }
 
-    /* =========================
-       HOME layout (Two Columns on Desktop)
-       Moved above mobile media query or safely kept if mobile overrides it
-    ========================= */
 
-    @media (min-width: 769px) {
-        .home-grid {
-            display: grid;
-            grid-template-columns: 1fr 2fr;
-            gap: 3rem;
-            align-items: start;
-            height: min(80vh, 720px);
-        }
+    .home-links {
+        display: flex;
 
-        .home-profile {
-            position: sticky;
-            top: 3rem;
-        }
+        flex-direction: column;
 
-        .home-profile h1 {
-            margin-top: 0;
-            font-size: 2rem;
-        }
-
-        .home-links {
-            display: grid;
-            grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
-            gap: 1.5rem;
-        }
-
-        .home-tile {
-            width: 100%;
-            max-width: none;
-        }
+        margin: 2rem auto;
     }
+
+
+    .home-title-tile {
+        padding: 1rem;
+    }
+
+
+    .home-title-tile h1 {
+        font-size: 1.5rem;
+    }
+
+
+    .home-tile {
+        width: 100%;
+    }
+}

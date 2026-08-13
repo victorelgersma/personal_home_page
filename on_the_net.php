@@ -2,7 +2,7 @@
 $title = "On the 'net";
 include "partials/header.php";
 ?>
-<h1><?= $title ?>  </h1>
+<h1><?= htmlspecialchars($title) ?></h1>
 
 <section>
     <ul>

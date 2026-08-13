@@ -2,11 +2,10 @@
 $title = "Work In Progress";
 include "partials/header.php";
 ?>
-<h1> <?= $title ?>  </h1>
+<h1><?= htmlspecialchars($title) ?></h1>
 
 <section>
 
-    <h2> Work in Progress 🏗️ </h2>
     <ul>
         <li>
             <a href="https://oldnews.vjbe.net">Old News </a>
