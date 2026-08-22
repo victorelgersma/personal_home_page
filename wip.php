@@ -8,6 +8,9 @@ include "partials/header.php";
 
     <ul>
         <li>
+            <a href="Penny Post">Penny Post</a>
+        </li>
+        <li>
             <a href="https://oldnews.vjbe.net">Old News </a>
         </li>
         <li>
@@ -22,3 +25,4 @@ include "partials/header.php";
         </li>
     </ul>
 </section>
+<?php include "partials/footer.php"; ?>
