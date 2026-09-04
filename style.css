@@ -273,27 +273,54 @@ footer {
    Name/photo header
 ========================= */
 
-.home-header {
-    grid-column: 1 / -1;
+
+
+/* Change these two existing selectors — add :not(.project-tile) so the
+/* Replace the existing .home-header block with: */
+
+.site-header {
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
-    margin-bottom: 0.5rem;
+    margin-bottom: 2rem;
 }
 
-.home-header .profile-pic {
+.site-header .profile-pic {
     margin-bottom: 0.75rem;
 }
 
-.home-header h3 {
+.site-header h3 {
     margin: 0;
     font-size: 1.3rem;
     font-weight: 500;
 }
 
-/* Change these two existing selectors — add :not(.project-tile) so the
-   underline styling doesn't apply to the new tiles: */
+.site-header-name {
+    text-decoration: none;
+}
+
+.site-header-name:hover {
+    text-decoration: underline;
+}
+
+.site-header .profile-pic {
+    margin-bottom: 0.75rem;
+}
+
+.site-header h3 {
+    margin: 0;
+    font-size: 1.3rem;
+    font-weight: 500;
+}
+
+.site-header-name {
+    text-decoration: none;
+}
+
+.site-header-name:hover {
+    text-decoration: underline;
+}
 
 article a:not(.home-tile):not(.project-tile) {
     text-decoration: underline;
