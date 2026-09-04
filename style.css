@@ -364,3 +364,34 @@ article a:not(.home-tile):not(.project-tile):hover {
 .project-tile[href^="http"]:hover::after {
     transform: translate(2px, -2px);
 }
+
+/* Add this near the .project-grid rules in style.css */
+
+.project-section-heading {
+    margin-top: 2.5rem;
+}
+
+/* =========================
+   Contact button (contact.php)
+========================= */
+
+.contact-button {
+    display: inline-block;
+
+    margin: 1rem 0 1.5rem;
+    padding: 0.75rem 1.5rem;
+
+    background: var(--text);
+    color: var(--background);
+
+    border-radius: 8px;
+
+    font-weight: 500;
+    text-decoration: none !important;
+
+    transition: opacity 0.15s ease;
+}
+
+.contact-button:hover {
+    opacity: 0.85;
+}

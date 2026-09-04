@@ -28,6 +28,10 @@ include "partials/header.php";
         <h2>Projects</h2>
         <p>Web experiments & works in progress.</p>
     </a>
+    <a class="home-tile" href="contact.php">
+        <h2>Contact</h2>
+        <p>Get in touch.</p>
+    </a>
     <!-- <a class="home-tile" href="on_the_net.php">
         <h2>On the 'Net</h2>
         <p>Internet curiosities and delights.</p>
