@@ -10,6 +10,10 @@ include "partials/header.php";
         <h2>Penny Post</h2>
         <p>A weekly letter-writing web app.</p>
     </a>
+    <a class="project-tile" href="https://links.vjbe.net">
+        <h2>Links</h2>
+        <p>A very simple link-saving app.</p>
+    </a>
     <a class="project-tile" href="https://oldnews.vjbe.net">
         <h2>Old News</h2>
         <p>An archive of old newspaper clippings and articles.</p>

@@ -2,19 +2,15 @@
 $title = "Victor Elgersma-Azmanov";
 include "partials/header.php";
 ?>
-
+<a href="contact.php" class="top-contact-link">Contact</a>
 <section class="home-grid">
 <div class="home-links">
-    <a class="home-tile" href="contact.php">
-        <h2>Contact</h2>
-        <p>Get in touch.</p>
-    </a>
     <a class="home-tile" href="text.php">
         <h2>Text</h2>
         <p>Blog & essays.</p>
     </a>
     <a class="home-tile" href="slides.php">
-        <h2>Slides</h2>
+        <h2>Talks</h2>
         <p>Presentations and talks.</p>
     </a>
     <a class="home-tile" href="videos.php">

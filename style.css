@@ -422,3 +422,72 @@ article a:not(.home-tile):not(.project-tile):hover {
 .contact-button:hover {
     opacity: 0.85;
 }
+
+
+/* =========================
+   Video pages
+========================= */
+
+.video-meta {
+    color: var(--muted);
+    font-size: 0.9rem;
+    margin-top: -0.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.video-sources-heading {
+    margin-top: 2rem;
+    font-size: 1.1rem;
+}
+
+.video-sources {
+    padding-left: 1.25rem;
+}
+
+/* ========================= Top contact link
+========================= */
+
+.top-contact-link {
+    display: block;
+    text-align: center;
+    margin: -1rem 0 2rem;
+    font-size: 0.95rem;
+    color: var(--muted);
+    text-decoration: none;
+}
+
+.top-contact-link:hover {
+    text-decoration: underline;
+    text-decoration-color: var(--text);
+    text-underline-offset: 3px;
+}
+
+
+
+/* =========================
+   Contact page (centered)
+========================= */
+
+.contact-page {
+    text-align: center;
+}
+
+.contact-list {
+    list-style: none;
+    padding: 0;
+    margin: 1.5rem 0 0;
+}
+
+.contact-list li {
+    margin-bottom: 0.75rem;
+}
+
+
+.contact-label {
+    display: block;
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    color: var(--muted);
+    margin-bottom: 0.15rem;
+}
